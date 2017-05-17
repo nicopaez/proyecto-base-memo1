@@ -8,6 +8,8 @@ import java.util.List;
  */
 public class FachadaBanco {
 
+    /* En un proyecto real, en lugar de tener una lista de cuentas, tendria una clase repositorio
+    que funcionaria como intermediario con la base de datos */
     List<CajaDeAhorro> cuentas;
 
     public FachadaBanco() {
